@@ -6,6 +6,7 @@ const input = form.querySelector('input');
 const textarea2 = document.querySelector('textarea');
 
 
+
 form.addEventListener('input', () => {
     const formData = new FormData(form);
     const email = formData.get('email');
@@ -67,3 +68,4 @@ window.addEventListener('DOMContentLoaded', () => {
     form.elements.email.value = email;
     form.elements.message.value = message;
 });
+
